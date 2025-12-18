@@ -1,0 +1,81 @@
+body{
+    background-color: ivory;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 400;
+    color: white ;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 50px;
+    background-color: grey;
+    border-width: 2px;
+}
+h1{
+    text-align: center;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    letter-spacing: 2px;
+    color: grey;
+    text-shadow: 2px 2px 5px #1a1a1a;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 8px ;
+    margin: 50px;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+ol{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 400;
+    color: black ;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 50px;
+    border-color: #1a1a1a;
+    border-width: 2px;
+    padding-left: 40px;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.social-links img{
+    height: 40px;
+    width: auto;
+}
+.youtube-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.youtube-video iframe{
+    height: 315px;
+    width: 560px;
+}
+.center-media{
+    display: flex;
+    align-items:center;
+    gap: 5px;
+}
+.center-media img{
+    width: 200PX;
+    height: auto;
+    border-radius: 8px;
+    margin: 50px;
+}
+.tableau{
+    margin: 50px;
+    height: auto;
+}
